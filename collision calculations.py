@@ -1,5 +1,5 @@
-m1 = 1		
-m2 = 100000000
+m1 = 1
+m2 = 1
 
 # Mass of object initially at rest : m1
 # Mass of object moving initially : m2
@@ -55,4 +55,5 @@ while(checkspeeds(currentvector[0], currentvector[1])):
 
 print("Mass at rest initally : %d" % m1)
 print("Mass at moving initally : %d" % m2)
+
 print("Total number of collisions of the masses : %f" % collisioncount)
